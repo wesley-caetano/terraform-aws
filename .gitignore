@@ -1,0 +1,15 @@
+# Ignorar arquivos de estado do Terraform
+*.tfstate
+*.tfstate.backup
+
+# Ignorar diretório de cache do Terraform
+.terraform/
+
+# Ignorar arquivos de crash e logs
+crash.log
+*.tfvars
+*.tfvars.json
+override.tf
+override.tf.json
+terraform.rc
+
